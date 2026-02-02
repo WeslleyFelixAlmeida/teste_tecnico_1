@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS movimento_produto (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cd_produto INTEGER,
+    tp_valor TEXT,
+    cd_empresa INTEGER,
+    round INTEGER,
+    nr_dctoorigem INTEGER,
+    nr_sequencia INTEGER,
+    cd_valor INTEGER,
+    cd_historico INTEGER,
+    in_estorno TEXT,
+    dt_movimento TEXT,
+    dt_cadastro TEXT
+)
